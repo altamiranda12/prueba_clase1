@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : Clase1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int pideSuma(int * resultado);
+
+int main(void) {
+
+
+	int resultado;
+
+	pideSuma(&resultado);
+	printf("el resultado es %d",resultado);
+	return 0;
+}
+
+int pideSuma(int * resultado){
+	int numero1;
+	int numero2;
+	printf("Ingrese dos numeros, estos se van a sumar");
+	scanf("%d",&numero1);
+	scanf("%d",&numero2);
+	resultado=numero1+numero2;
+
+
+}
+
