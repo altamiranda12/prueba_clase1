@@ -14,12 +14,16 @@
 int pideSuma(int * resultado);
 
 int main(void) {
+
+
 	int resultado;
+
+
 	if(pideSuma(&resultado)==0){
-		printf("el resultado es :%d",resultado);
+		printf("el resultado es %d",resultado);
 	}
 	else{
-		printf("ERROR!");
+		printf("EROR!");
 	}
 	return 0;
 }
